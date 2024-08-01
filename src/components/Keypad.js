@@ -1,8 +1,14 @@
 // Code Keypad Component Here
 
+
+
 function Keypad (){
+    
+const loger=()=>{
+console.log('Entering password...')
+}
     return (
-        <div></div>
+      <input onChange={loger} type="password"/>
     )
 }
 
